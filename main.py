@@ -243,6 +243,7 @@ class Login():
 
         if self.name not in self.getdata:
             print('\nYou are not a valid member')
+            sleep(1)
 
         else:
             password = input('\nEnter the password : ')
@@ -251,10 +252,11 @@ class Login():
                 
                 sleep(1)
                 print('Wrong password or id !')
+                sleep(1)
             else:
                 sleep(1)
                 print('\nSuccesfully logged in ')
-
+                sleep(1)
 
 
     def screen(self):
