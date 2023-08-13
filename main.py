@@ -247,7 +247,7 @@ class Login():
         else:
             password = input('\nEnter the password : ')
             id = input('Enter your id : ')
-            if password != self.getdata[self.name]['password'] and id != self.getdata[self.name]['']:
+            if password != self.getdata[self.name]['password'] and id != self.getdata[self.name]['id']:
                 
                 sleep(1)
                 print('Wrong password or id !')
